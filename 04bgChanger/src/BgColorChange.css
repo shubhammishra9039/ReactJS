@@ -1,0 +1,77 @@
+.main
+{
+    height: 98vh;
+    width: 100%;
+   
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: whitesmoke;
+ 
+}
+
+.tittle
+{
+    width: 800px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1
+{
+    font-size: 26px;
+    background-color: cadetblue;
+    width: 375px;
+    text-align: center;
+    height: 75px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.btn
+{
+    width: 800px;
+    height: 75px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 35px;
+    
+}
+
+.btn button
+{
+    width:105px ;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+    border: 2px solid steelblue;
+}
+
+.btn button#red
+{
+    background-color: red;
+}
+.btn button#green
+{
+    background-color: green;
+}
+.btn button#yellow
+{
+    background-color: rgb(148, 148, 2);
+}
+.btn button#blue
+{
+    background-color: blue;
+}
+.btn button#black
+{
+    background-color: black;
+}
