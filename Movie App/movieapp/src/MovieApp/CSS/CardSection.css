@@ -1,0 +1,15 @@
+.Container {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  border-radius: 35px;
+  box-shadow: 2px 2px 10px 2px rgb(0, 0, 0);
+  color: whitesmoke;
+}
+
+.Container img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 35px;
+}

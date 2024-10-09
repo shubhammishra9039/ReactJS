@@ -1,0 +1,87 @@
+.Password-Generator{
+    width: 700px;
+    height: 350px;
+    /* border: 2px solid whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(5, 16, 16);
+    box-shadow: 2px 2px 2px  rgb(0, 0, 0),2px 2px 2px rgb(255, 255, 255);
+    border-radius: 25px;
+    
+}
+
+.title
+{
+    width: 90%;
+    height: 15%;
+    /* border: 2px solid whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    border-radius: 90px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.input-button
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#password
+{
+    width: 305px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;font-size: 18px;
+    font-weight: 500;
+    
+}
+#password::placeholder
+{
+    
+}
+
+.input-button label
+{
+    font-size: large;
+    
+
+}
+
+.input-button button
+{
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.input-button button:hover
+{
+    background-color: cadetblue;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.Condition
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
